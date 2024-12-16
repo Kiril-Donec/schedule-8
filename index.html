@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Розклад уроків 8-го класу</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Розклад уроків 8-Г класу</h1>
+        
+        <div class="schedule-wrapper">
+            <div class="tabs">
+                <button class="tab-btn" data-day="monday">Понеділок</button>
+                <button class="tab-btn" data-day="tuesday">Вівторок</button>
+                <button class="tab-btn" data-day="wednesday">Середа</button>
+                <button class="tab-btn" data-day="thursday">Четвер</button>
+                <button class="tab-btn" data-day="friday">П'ятниця</button>
+            </div>
+
+            <div class="schedule-content">
+                <div class="tab-content" id="monday">
+                    <div class="lessons-grid">
+                        <div class="lesson-column">
+                            <ol class="lessons">
+                                <li>Географія <span class="ds-badge">ДС</span><span class="mobile-time">08:30 – 09:15</span></li>
+                                <li>Біологія <span class="ds-badge">ДС</span><span class="mobile-time">09:20 – 10:05</span></li>
+                                <li>Фізкультура <span class="ds-badge">ДС</span><span class="mobile-time">10:15 – 11:00</span></li>
+                                <li class="empty">—<span class="mobile-time">11:10 – 11:55</span></li>
+                                <li class="empty">—<span class="mobile-time">12:05 – 12:50</span></li>
+                                <li>Англійська мова <span class="parenthetical">(перша іноземна)</span><span class="mobile-time">13:15 – 14:00</span></li>
+                                <li>Алгебра<span class="mobile-time">14:05 – 14:50</span></li>
+                                <li>Українська мова<span class="mobile-time">15:00 – 15:45</span></li>
+                                <li>Зарубіжна література<span class="mobile-time">15:55 – 16:40</span></li>
+                                <li>Історія України<span class="mobile-time">16:50 – 17:35</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tuesday">
+                    <div class="lessons-grid">
+                        <div class="lesson-column">
+                            <ol class="lessons">
+                                <li class="empty">—<span class="mobile-time">08:30 – 09:15</span></li>
+                                <li>Інформатика <span class="ds-badge">ДС</span><span class="mobile-time">09:20 – 10:05</span></li>
+                                <li class="empty">—<span class="mobile-time">10:15 – 11:00</span></li>
+                                <li>Фізкультура <span class="ds-badge">ДС</span><span class="mobile-time">11:10 – 11:55</span></li>
+                                <li class="empty">—<span class="mobile-time">12:05 – 12:50</span></li>
+                                <li>Українська література<span class="mobile-time">13:15 – 14:00</span></li>
+                                <li>Алгебра<span class="mobile-time">14:05 – 14:50</span></li>
+                                <li>Українська мова<span class="mobile-time">15:00 – 15:45</span></li>
+                                <li>Географія<span class="mobile-time">15:55 – 16:40</span></li>
+                                <li>Англійська мова <span class="parenthetical">(перша іноземна)</span><span class="mobile-time">16:50 – 17:35</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="wednesday">
+                    <div class="lessons-grid">
+                        <div class="lesson-column">
+                            <ol class="lessons">
+                                <li class="empty">—<span class="mobile-time">08:30 – 09:15</span></li>
+                                <li class="empty">—<span class="mobile-time">09:20 – 10:05</span></li>
+                                <li class="empty">—<span class="mobile-time">10:15 – 11:00</span></li>
+                                <li>Трудове навчання <span class="ds-badge">ДС</span><span class="mobile-time">11:10 – 11:55</span></li>
+                                <li class="empty">—<span class="mobile-time">12:05 – 12:50</span></li>
+                                <li>Інформатика<span class="mobile-time">13:15 – 14:00</span></li>
+                                <li>Фізика<span class="mobile-time">14:05 – 14:50</span></li>
+                                <li>Польська <span class="parenthetical">(друга іноземна)</span><span class="mobile-time">15:00 – 15:45</span></li>
+                                <li>Всесвітня історія<span class="mobile-time">15:55 – 16:40</span></li>
+                                <li>Зарубіжна література<span class="mobile-time">16:50 – 17:35</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="thursday">
+                    <div class="lessons-grid">
+                        <div class="lesson-column">
+                            <ol class="lessons">
+                                <li class="empty">—<span class="mobile-time">08:30 – 09:15</span></li>
+                                <li>Мистецтво <span class="ds-badge">ДС</span><span class="mobile-time">09:20 – 10:05</span></li>
+                                <li>Хімія <span class="ds-badge">ДС</span><span class="mobile-time">10:15 – 11:00</span></li>
+                                <li class="split-lesson">
+                                    <div class="lesson-content">
+                                        <div class="group-lesson">
+                                            <span class="group-badge">A</span>
+                                            <span class="lesson-text">Польська <span class="parenthetical">(друга іноземна)</span></span>
+                                            <span class="ds-badge">ДС</span>
+                                        </div>
+                                        <div class="group-lesson">
+                                            <span class="group-badge">Б</span>
+                                            <span class="lesson-text">Історія України</span>
+                                            <span class="ds-badge">ДС</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="empty">—<span class="mobile-time">12:05 – 12:50</span></li>
+                                <li>Геометрія<span class="mobile-time">13:15 – 14:00</span></li>
+                                <li>Фізкультура<span class="mobile-time">14:05 – 14:50</span></li>
+                                <li>Українська мова<span class="mobile-time">15:00 – 15:45</span></li>
+                                <li>Англійська мова <span class="parenthetical">(перша іноземна)</span><span class="mobile-time">15:55 – 16:40</span></li>
+                                <li>Біологія<span class="mobile-time">16:50 – 17:35</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="friday">
+                    <div class="lessons-grid">
+                        <div class="lesson-column">
+                            <ol class="lessons">
+                                <li class="empty">—<span class="mobile-time">08:30 – 09:15</span></li>
+                                <li>Основи здоров'я <span class="ds-badge">ДС</span><span class="mobile-time">09:20 – 10:05</span></li>
+                                <li>Фізика <span class="ds-badge">ДС</span><span class="mobile-time">10:15 – 11:00</span></li>
+                                <li>Фізкультура <span class="ds-badge">ДС</span><span class="mobile-time">11:10 – 11:55</span></li>
+                                <li class="empty">—<span class="mobile-time">12:05 – 12:50</span></li>
+                                <li>Алгебра<span class="mobile-time">13:15 – 14:00</span></li>
+                                <li>Геометрія<span class="mobile-time">14:05 – 14:50</span></li>
+                                <li>Польська <span class="parenthetical">(друга іноземна)</span><span class="mobile-time">15:00 – 15:45</span></li>
+                                <li>Хімія<span class="mobile-time">15:55 – 16:40</span></li>
+                                <li>Українська література<span class="mobile-time">16:50 – 17:35</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.tab-btn');
+            const contents = document.querySelectorAll('.tab-content');
+            let currentTab = null;
+
+            // Get the day from URL hash or default to Monday
+            let initialDay = window.location.hash.slice(1) || 'monday';
+            showTab(initialDay);
+
+            // Add click event listeners to tabs
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const day = this.dataset.day;
+                    if (currentTab !== day) {
+                        showTab(day);
+                    }
+                });
+            });
+
+            function showTab(day) {
+                const targetContent = document.getElementById(day);
+                if (!targetContent) return;
+
+                // Update current tab
+                currentTab = day;
+
+                // Update active state of tab buttons
+                tabs.forEach(tab => tab.classList.remove('active'));
+                const activeTab = document.querySelector(`[data-day="${day}"]`);
+                if (activeTab) {
+                    activeTab.classList.add('active');
+                }
+
+                // Handle content transitions
+                const currentActive = document.querySelector('.tab-content.active');
+                
+                if (currentActive && currentActive !== targetContent) {
+                    // Slide out current content
+                    currentActive.classList.add('slide-out');
+                    currentActive.addEventListener('animationend', function handler() {
+                        currentActive.classList.remove('active', 'slide-out');
+                        currentActive.style.display = 'none';
+                        currentActive.removeEventListener('animationend', handler);
+                        
+                        // Show new content
+                        targetContent.style.display = 'block';
+                        setTimeout(() => {
+                            targetContent.classList.add('active');
+                        }, 10);
+                    }, { once: true });
+                } else {
+                    // Show new content immediately if no current active content
+                    targetContent.style.display = 'block';
+                    setTimeout(() => {
+                        targetContent.classList.add('active');
+                    }, 10);
+                }
+
+                // Update URL hash without scrolling
+                history.replaceState(null, null, `#${day}`);
+            }
+        });
+    </script>
+</body>
+</html>
